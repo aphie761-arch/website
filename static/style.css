@@ -1,0 +1,50 @@
+/* Basic styling for the whole page */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Make the navigation bar horizontal */
+nav {
+    background-color: #003366; /* Deep blue, looks professional */
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ffcc00; /* Yellow hover effect */
+}
+
+/* Add some space to the main content */
+main {
+    padding: 20px;
+}
+
+
+.course-list h3 {
+    color: #003366; /* Matching your navy blue brand color */
+    letter-spacing: 1px;
+    border-bottom: 2px solid #ffcc00; /* Adding a gold underline to highlight them */
+    padding-bottom: 5px;
+}
+
+.admissions-section ol li {
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #003366;
+}
+
+.image-grid img {
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+    border: 3px solid #003366;
+    border-radius: 8px;
+}
