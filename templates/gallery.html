@@ -3,10 +3,10 @@
 <div class="gallery-section">
     <h1>GALLERY</h1>
     <p>Take a look at our training facilities and campus life at Entebbe Flying School</p>
-
-    <div class="image-grid">
-        <img src="{{ url_for('static', filename='gallery/pic1.jpeg') }}" alt="Training facility">
-        <img src="{{ url_for('static', filename='gallery/pic2.jpeg') }}" alt="Campus life">
-        </div>
+<div class="image-grid">
+    {% for i in range(1, 44) %}
+        <img src="{{ url_for('static', filename='gallery/pic' ~ i ~ '.jpeg') }}" alt="Gallery image {{ i }}">
+    {% endfor %}
 </div>
+    
 {% endblock %}
