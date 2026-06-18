@@ -2,13 +2,11 @@
 {% block content %}
 <div class="gallery-section">
     <h1>GALLERY</h1>
-    <p>Take a look at our training facilities and campus life at Entebbe Flying School LTD.</p>
+    <p>Take a look at our training facilities and campus life at Entebbe Flying School</p>
 
     <div class="image-grid">
-        <!-- Add your images here using the format below -->
-        <!-- <img src="{{ url_for('static', filename='images/image.png') }}" alt="Description of image"> -->
-        
-        <p><em>Gallery coming soon...</em></p>
-    </div>
+        <img src="{{ url_for('static', filename='gallery/pic1.jpeg') }}" alt="Training facility">
+        <img src="{{ url_for('static', filename='gallery/pic2.jpeg') }}" alt="Campus life">
+        </div>
 </div>
 {% endblock %}
