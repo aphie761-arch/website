@@ -48,3 +48,8 @@ main {
     border: 3px solid #003366;
     border-radius: 8px;
 }
+
+.logo-image {
+    width: 150px;
+    height: auto;
+}
